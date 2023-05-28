@@ -79,7 +79,7 @@ class _ProductInfoPageState extends State<ProductInfoPage>
       appBar: AppBar(
         leading: GestureDetector(
           onTap: () => Navigator.pop(context),
-          child: Icon(
+          child: PhosphorIcon(
             PhosphorIcons.regular.caretLeft,
             color: TokoColor.black500,
           ),
@@ -160,7 +160,7 @@ class _SectionTwo extends StatelessWidget {
         Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(
+            PhosphorIcon(
               PhosphorIcons.regular.storefront,
               color: TokoColor.grey500,
               size: 18,
@@ -321,7 +321,7 @@ class _BottomSheetButton extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        PhosphorIcon(
                           PhosphorIcons.regular.shoppingBag,
                           color: TokoColor.grey0,
                           size: 18,
@@ -381,7 +381,7 @@ class _ProductInfoRow extends StatelessWidget {
         Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(
+            PhosphorIcon(
               PhosphorIcons.fill.star,
               color: const Color(0xFFFAB058),
               size: 18,

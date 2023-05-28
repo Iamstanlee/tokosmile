@@ -36,7 +36,7 @@ class _MarketPlacePageState extends State<MarketPlacePage>
               IconButton(
                 onPressed: () {},
                 icon: BadgedIcon(
-                  icon: Icon(
+                  icon: PhosphorIcon(
                     PhosphorIcons.regular.shoppingBag,
                     color: TokoColor.black200,
                   ),
@@ -46,7 +46,7 @@ class _MarketPlacePageState extends State<MarketPlacePage>
               IconButton(
                 onPressed: () {},
                 icon: BadgedIcon(
-                  icon: Icon(
+                  icon: PhosphorIcon(
                     PhosphorIcons.regular.chatCircleText,
                     color: TokoColor.black200,
                   ),

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:tokosmile/core/design_system/color.dart';
 import 'package:tokosmile/core/design_system/typography.dart';
 
 class BadgedIcon extends StatelessWidget {
   final String badge;
-  final Icon icon;
+  final PhosphorIcon icon;
 
   const BadgedIcon({
     required this.badge,
