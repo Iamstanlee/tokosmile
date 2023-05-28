@@ -3,5 +3,5 @@ class TokoConstants {
 
   static bool get showDebugCheckBanner => false;
 
-  static String get primaryTypeface => 'Uncut-Sans';
+  static String get primaryTypeface => 'AeonikTRIAL';
 }

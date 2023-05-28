@@ -254,7 +254,7 @@ class _SectionTwo extends StatelessWidget {
               children: <Widget>[
                 _TableCell(
                   title: "Condition",
-                  description: 'USED',
+                  description: 'NEW',
                 ),
                 _TableCell(
                   title: "Heavy",
@@ -324,7 +324,7 @@ class _BottomSheetButton extends StatelessWidget {
                         PhosphorIcon(
                           PhosphorIcons.regular.shoppingBag,
                           color: TokoColor.grey0,
-                          size: 18,
+                          size: 16,
                         ),
                         const SizedBox(width: TokoSpacing.xs),
                         Text(

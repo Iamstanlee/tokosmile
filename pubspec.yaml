@@ -25,6 +25,6 @@ flutter:
     - res/images/
 
   fonts:
-    - family: Uncut-Sans
+    - family: AeonikTRIAL
       fonts:
-        - asset: res/fonts/Uncut-Sans-Variable.ttf
+        - asset: res/fonts/AeonikTRIAL.otf
