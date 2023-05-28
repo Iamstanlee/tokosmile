@@ -1,0 +1,30 @@
+name: tokosmile
+description: Design based on dribble
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  phosphor_flutter: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - res/images/
+
+  fonts:
+    - family: Uncut-Sans
+      fonts:
+        - asset: res/fonts/Uncut-Sans-Variable.ttf
