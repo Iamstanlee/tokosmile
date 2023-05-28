@@ -14,12 +14,12 @@ class ActionMenu extends StatelessWidget {
       IconButton(
         onPressed: () {},
         icon: isProductLiked
-            ? Icon(
+            ? PhosphorIcon(
                 PhosphorIcons.fill.heartStraight,
                 color: TokoColor.badgeColor,
                 size: 20,
               )
-            : Icon(
+            : PhosphorIcon(
                 PhosphorIcons.regular.heartStraight,
                 color: TokoColor.black500,
                 size: 20,
@@ -27,7 +27,7 @@ class ActionMenu extends StatelessWidget {
       ),
       IconButton(
         onPressed: () {},
-        icon: Icon(
+        icon: PhosphorIcon(
           PhosphorIcons.regular.shareNetwork,
           color: TokoColor.black500,
           size: 20,
@@ -36,7 +36,7 @@ class ActionMenu extends StatelessWidget {
       IconButton(
         onPressed: () {},
         icon: BadgedIcon(
-          icon: Icon(
+          icon: PhosphorIcon(
             PhosphorIcons.regular.shoppingBag,
             color: TokoColor.black500,
             size: 20,
